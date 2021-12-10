@@ -1,0 +1,24 @@
+{%extends 'app/base.html'%}
+
+{%block contenido%}
+
+<div class="col-lg-12 col-md-8 mt-5">
+  <h5 class="text-center">Agregar un Nuevo Prosucto</h5>
+</div>
+<div class="container" style="padding: 1%;">
+  <form  method="POST" enctype="multipart/form-data">
+      <div class="form-group mt-4">
+          {%csrf_token%}
+          <div class="container col-lg-2">
+            {{ form}}
+            <button type="submit" class=" mt-4 btn btn-primary justify-content-end">Submit</button>     
+          </div>
+      </div>
+      
+      
+     
+    </form>
+</div>
+
+
+{%endblock%}

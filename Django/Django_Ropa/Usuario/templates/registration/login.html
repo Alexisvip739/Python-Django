@@ -1,0 +1,24 @@
+{%extends 'app/base.html'%}
+{%block  contenido%}
+<form action="" method="POST">
+
+    <div class="col-lg-12 col-md-8 mt-5">
+        <h5 class="text-center">Ingresa tus credenciales</h5>
+
+      </div>
+      <div class="container" style="padding: 1%; border-radius: 1%;">
+        <form  method="POST" enctype="multipart/form-data">
+            <div class="form-group mt-4" ">
+                {%csrf_token%}
+                <div class="container col-lg-2">
+                  {{ form}}
+                  <button type="submit" class=" mt-4 btn btn-primary justify-content-end">Login</button> 
+                  <a href="{%url 'Registro'%}" class="btn btn-warning btn-md mt-4 ml-3 offset-1">Registrate</a></td> 
+                </div>
+            </div>
+            
+            
+           
+          </form>
+      </div>
+{%endblock%}

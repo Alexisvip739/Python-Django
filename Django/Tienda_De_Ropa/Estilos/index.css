@@ -1,0 +1,45 @@
+.navbar{
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+.navbar .navbar-nav{
+    margin-left: 40%;
+}
+.body{
+    background-color: rgba(63, 252, 179, 0.411);
+}
+.container{
+    
+    align-items: center;
+    border-radius: 3rem;
+    background-color: honeydew;
+    margin-top: 2%;
+    
+}
+h5{
+    background-color: white;
+    margin-top: 6%;
+    width: 10%;
+    border-radius: 2rem;
+    margin-left: 44%;
+    
+    
+
+}
+h6{
+    background-color: yellow;
+    
+    margin-right: 38%;
+    
+    border-radius: 2rem;
+}
+p{
+    background-color: gray;
+    margin-right: 50%;
+    border-radius: 2rem;
+}

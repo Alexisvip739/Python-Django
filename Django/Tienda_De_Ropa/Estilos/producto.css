@@ -1,0 +1,28 @@
+.navbar{
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+.navbar .navbar-nav{
+    margin-left: 40%;
+}
+.body{
+    background-color: rgba(63, 252, 179, 0.411);
+}
+.container{
+    
+    align-items: center;
+    border-radius: 3rem;
+    background-color: honeydew;
+    margin-top: 2%;
+    padding: 2%;
+    
+}
+.table-bordered{
+    border-radius: 3rem;
+    margin-top: 2%;
+}

@@ -1,0 +1,7 @@
+1.- instalar la version de django y pip 
+2.-  crear una carpeta y entrar a esa ruta desde cmd
+3.- crear un nombre para el proyecto ( django-admin startproject Proyecto1 )
+4.- ejecutar despues python manage.py migrate
+5.- para correr el proyecto con (python manage.py runserver)
+6.- crear usuario (python manage.py shell) ahi se ingresa el usuario que desee ya creada el model
+7.- crear super usuario(admin) python manage.py createsuperuser
